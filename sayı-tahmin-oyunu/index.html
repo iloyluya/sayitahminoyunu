@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="baslik">SAYI TAHMİN OYUNUNA HOŞGELDİNİZ</h1>
+    <div class="tahmin">
+      
+<input type="number" pattern="^(10|[1-9])$"  class="number" placeholder="tahmininizi girin">
+<br>
+
+
+    </div>
+    <input type="button" id="formtahmini" name="tahmin et" value="tahmini gönder">
+  
+<div class="uyari" id="popup" style="display: none;">
+  <span class="kapat" id="kapatBtn">&times;</span>
+  Tahmin gönderildi!
+</div>
+
+    <script src="sayi.js"></script>
+</body>
+</html>
